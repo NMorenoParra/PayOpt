@@ -90,7 +90,7 @@ def mostrar_interfaz():
 
       st.markdown("#### Video explicativo 🎥")
       # Cambia esta URL por la de YouTube de tus compañeros cuando la tengan
-      st.video("https://youtu.be/K8AlG4fgc4A?si=4t7ZA5y2p-aeSb0Z")
+      st.video("https://youtu.be/Lnveikjg8o8")
 
 if __name__ == "__main__":
   mostrar_interfaz()
