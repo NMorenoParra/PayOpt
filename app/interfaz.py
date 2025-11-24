@@ -16,7 +16,7 @@ from vistas.recomendaciones import mostrar_recomendaciones
 
 st.set_page_config(
     page_title="PayOpt | Simulador de pagos de deuda",
-    page_icon="images/logo.png",
+    page_icon="images/favicon.png",
     layout="wide",
 )
 
@@ -29,8 +29,8 @@ def mostrar_interfaz():
   col_izq, col_der = st.columns(2, border=True, gap="medium")
   
   with col_izq:
-    st.image("images/logo.png",width=200)
-    st.markdown("# Bienvenido a PayOpt")
+    st.image("images/logo.png",width=400)
+    st.markdown("# Bienvenido")
     st.write("Por favor, ingresa los siguientes datos para simular los pagos de tu deuda:")
 
     # Mostrar el formulario
